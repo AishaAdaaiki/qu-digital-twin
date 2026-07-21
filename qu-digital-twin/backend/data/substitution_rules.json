@@ -1,0 +1,13 @@
+[
+  {"course_a": "CMPS350", "course_b": "CMPS405", "verdict": "needs_advisor", "condition": "Both satisfy the Senior Project I eligibility 'one of' requirement, but they are not interchangeable as general degree requirements outside that specific gate; an advisor must confirm which requirement is being satisfied."},
+  {"course_a": "CMPS493", "course_b": "CMPS499", "verdict": "not_allowed", "condition": "Senior Project I and II are sequential capstone courses; II requires I as a prerequisite, so neither substitutes for the other."},
+  {"course_a": "MATH101", "course_b": "MATH102", "verdict": "not_allowed", "condition": "Calculus II requires Calculus I as a prerequisite; it is a continuation, not a substitute."},
+  {"course_a": "ENGL202", "course_b": "ARAB100", "verdict": "not_allowed", "condition": "Core-curriculum requirements in different skill domains (English vs Arabic language); not interchangeable."},
+  {"course_a": "CORE_KS", "course_b": "NAT_SCI", "verdict": "not_allowed", "condition": "Different core-curriculum package requirements (Knowledge & Skills vs Natural Science/Math); each satisfies a distinct requirement slot."},
+  {"course_a": "HUM_FA", "course_b": "SOC_BEH", "verdict": "not_allowed", "condition": "Different core-curriculum package requirements (Humanities/Fine Arts vs Social & Behavioral Sciences); each satisfies a distinct requirement slot."},
+  {"course_a": "CMPS200", "course_b": "DAWA111", "verdict": "not_allowed", "condition": "Computer Ethics (major core, 1 CH) and Islamic Culture (core curriculum, 3 CH) satisfy different requirement categories entirely."},
+  {"course_a": "PHYS191", "course_b": "CHEM101", "verdict": "not_allowed", "condition": "Both are required college-level lab science courses; neither waives the other."},
+  {"course_a": "CMPS303", "course_b": "CMPS323", "verdict": "not_allowed", "condition": "Data Structures and Algorithms are sequential (Algorithms requires Data Structures); neither substitutes for the other."},
+  {"course_a": "ELEC1", "course_b": "ELEC2", "verdict": "allowed", "condition": "Both are generic major-elective slots filled from the same approved elective pool (see _elective_pool_reference in courses.json); any approved elective may fill either slot."},
+  {"course_a": "MATH231", "course_b": "GENG200", "verdict": "needs_advisor", "condition": "Linear Algebra and Probability & Statistics cover different math foundations; an advisor must confirm program-specific mapping before allowing this as a substitution."}
+]
