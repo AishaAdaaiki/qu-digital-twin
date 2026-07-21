@@ -1,0 +1,319 @@
+{
+  "_meta": "Mock faculty roster with invented names/salaries at plausible QU scale - swap with a real HR export using the same schema.",
+  "F001": {
+    "name": "Dr. Layla Al-Kuwari",
+    "rank": "full_professor",
+    "fte": 1.0,
+    "max_courses_per_term": 2,
+    "qualified_courses": [
+      "CMPS303",
+      "CMPS323",
+      "CMPS205"
+    ],
+    "specializations": [
+      "algorithms",
+      "data_structures"
+    ],
+    "status": "active",
+    "annual_salary_qar": 420000
+  },
+  "F002": {
+    "name": "Dr. Yousef Al-Marri",
+    "rank": "associate_professor",
+    "fte": 1.0,
+    "max_courses_per_term": 3,
+    "qualified_courses": [
+      "CMPS351",
+      "CMPS451",
+      "CMPS453"
+    ],
+    "specializations": [
+      "databases",
+      "data_mining"
+    ],
+    "status": "active",
+    "annual_salary_qar": 340000
+  },
+  "F003": {
+    "name": "Dr. Fatima Al-Sada",
+    "rank": "assistant_professor",
+    "fte": 1.0,
+    "max_courses_per_term": 3,
+    "qualified_courses": [
+      "CMPS310",
+      "CMPS493",
+      "CMPS499",
+      "CMPS307"
+    ],
+    "specializations": [
+      "software_engineering",
+      "project_management"
+    ],
+    "status": "active",
+    "annual_salary_qar": 300000
+  },
+  "F004": {
+    "name": "Dr. Ahmad Al-Emadi",
+    "rank": "associate_professor",
+    "fte": 1.0,
+    "max_courses_per_term": 3,
+    "qualified_courses": [
+      "CMPE355",
+      "CMPE488",
+      "CMPS380"
+    ],
+    "specializations": [
+      "computer_networks",
+      "wireless_networks",
+      "cybersecurity"
+    ],
+    "status": "active",
+    "annual_salary_qar": 340000
+  },
+  "F005": {
+    "name": "Dr. Noor Al-Thani",
+    "rank": "assistant_professor",
+    "fte": 1.0,
+    "max_courses_per_term": 3,
+    "qualified_courses": [
+      "CMPS405",
+      "CMPE263"
+    ],
+    "specializations": [
+      "operating_systems",
+      "computer_architecture"
+    ],
+    "status": "active",
+    "annual_salary_qar": 300000
+  },
+  "F006": {
+    "name": "Dr. Khalid Al-Naimi",
+    "rank": "full_professor",
+    "fte": 1.0,
+    "max_courses_per_term": 2,
+    "qualified_courses": [
+      "CMPS403",
+      "CMPS460"
+    ],
+    "specializations": [
+      "artificial_intelligence",
+      "machine_learning"
+    ],
+    "status": "active",
+    "annual_salary_qar": 420000
+  },
+  "F007": {
+    "name": "Dr. Maryam Al-Hajri",
+    "rank": "assistant_professor",
+    "fte": 1.0,
+    "max_courses_per_term": 3,
+    "qualified_courses": [
+      "CMPS360",
+      "CMPS466"
+    ],
+    "specializations": [
+      "data_science",
+      "machine_learning",
+      "information_retrieval"
+    ],
+    "status": "active",
+    "annual_salary_qar": 300000
+  },
+  "F008": {
+    "name": "Dr. Rashid Al-Kubaisi",
+    "rank": "lecturer",
+    "fte": 1.0,
+    "max_courses_per_term": 4,
+    "qualified_courses": [
+      "CMPS151",
+      "CMPS251"
+    ],
+    "specializations": [
+      "programming_fundamentals",
+      "web_development"
+    ],
+    "status": "active",
+    "annual_salary_qar": 220000
+  },
+  "F009": {
+    "name": "Dr. Aisha Al-Mannai",
+    "rank": "lecturer",
+    "fte": 1.0,
+    "max_courses_per_term": 4,
+    "qualified_courses": [
+      "CMPS151",
+      "CMPS350",
+      "CMPS356",
+      "CMPS312"
+    ],
+    "specializations": [
+      "web_development",
+      "mobile_development"
+    ],
+    "status": "active",
+    "annual_salary_qar": 220000
+  },
+  "F010": {
+    "name": "Dr. Hamad Al-Sulaiti",
+    "rank": "associate_professor",
+    "fte": 1.0,
+    "max_courses_per_term": 3,
+    "qualified_courses": [
+      "CMPS200",
+      "CMPS493",
+      "CMPS499"
+    ],
+    "specializations": [
+      "human_computer_interaction",
+      "computing_ethics"
+    ],
+    "status": "on_leave",
+    "annual_salary_qar": 340000
+  },
+  "F011": {
+    "name": "Dr. Sara Al-Ansari",
+    "rank": "assistant_professor",
+    "fte": 1.0,
+    "max_courses_per_term": 3,
+    "qualified_courses": [
+      "CMPS393",
+      "CMPS465"
+    ],
+    "specializations": [
+      "modeling_and_simulation",
+      "parallel_computing"
+    ],
+    "status": "active",
+    "annual_salary_qar": 300000
+  },
+  "F012": {
+    "name": "Adj. Omar Al-Baker",
+    "rank": "adjunct",
+    "fte": 0.5,
+    "max_courses_per_term": 2,
+    "qualified_courses": [
+      "CMPS399",
+      "CMPS307"
+    ],
+    "specializations": [
+      "industry_practice"
+    ],
+    "status": "active",
+    "annual_salary_qar": 90000
+  },
+  "F101": {
+    "name": "Dr. Huda Al-Malki",
+    "rank": "associate_professor",
+    "fte": 1.0,
+    "max_courses_per_term": 3,
+    "qualified_courses": [
+      "MATH101",
+      "MATH102",
+      "MATH231"
+    ],
+    "specializations": [
+      "mathematics"
+    ],
+    "status": "active",
+    "annual_salary_qar": 320000
+  },
+  "F102": {
+    "name": "Dr. Jassim Al-Kaabi",
+    "rank": "assistant_professor",
+    "fte": 1.0,
+    "max_courses_per_term": 3,
+    "qualified_courses": [
+      "GENG200",
+      "GENG300"
+    ],
+    "specializations": [
+      "statistics",
+      "numerical_methods"
+    ],
+    "status": "active",
+    "annual_salary_qar": 290000
+  },
+  "F103": {
+    "name": "Dr. Reem Al-Obaidli",
+    "rank": "associate_professor",
+    "fte": 1.0,
+    "max_courses_per_term": 3,
+    "qualified_courses": [
+      "PHYS191",
+      "PHYS192",
+      "PHYS193",
+      "PHYS194"
+    ],
+    "specializations": [
+      "physics"
+    ],
+    "status": "active",
+    "annual_salary_qar": 320000
+  },
+  "F104": {
+    "name": "Dr. Nasser Al-Attiyah",
+    "rank": "lecturer",
+    "fte": 1.0,
+    "max_courses_per_term": 4,
+    "qualified_courses": [
+      "CHEM101",
+      "CHEM103"
+    ],
+    "specializations": [
+      "chemistry"
+    ],
+    "status": "active",
+    "annual_salary_qar": 210000
+  },
+  "F105": {
+    "name": "Lect. Mona Al-Sayed",
+    "rank": "lecturer",
+    "fte": 1.0,
+    "max_courses_per_term": 4,
+    "qualified_courses": [
+      "ENGL202",
+      "ENGL203"
+    ],
+    "specializations": [
+      "academic_english"
+    ],
+    "status": "active",
+    "annual_salary_qar": 200000
+  },
+  "F106": {
+    "name": "Lect. Faisal Al-Marzouqi",
+    "rank": "lecturer",
+    "fte": 1.0,
+    "max_courses_per_term": 4,
+    "qualified_courses": [
+      "ARAB100",
+      "HIST121",
+      "DAWA111"
+    ],
+    "specializations": [
+      "arabic_and_islamic_studies",
+      "qatari_history"
+    ],
+    "status": "active",
+    "annual_salary_qar": 200000
+  },
+  "F107": {
+    "name": "Dr. Wadha Al-Hamad",
+    "rank": "assistant_professor",
+    "fte": 1.0,
+    "max_courses_per_term": 3,
+    "qualified_courses": [
+      "MAGT101",
+      "CORE_KS",
+      "NAT_SCI",
+      "HUM_FA",
+      "SOC_BEH"
+    ],
+    "specializations": [
+      "management",
+      "general_education"
+    ],
+    "status": "active",
+    "annual_salary_qar": 280000
+  }
+}
