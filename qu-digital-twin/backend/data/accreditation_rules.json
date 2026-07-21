@@ -1,0 +1,16 @@
+{
+  "_meta": "Mock accreditation policy at plausible ABET-style scale - swap with the real accrediting body's requirements using the same schema.",
+  "min_credit_hours_by_category": {
+    "core_curriculum": 33,
+    "college": 21,
+    "major_core": 49,
+    "major_elective": 12,
+    "major_supporting": 5
+  },
+  "max_student_faculty_ratio": 25,
+  "max_class_size": {
+    "lecture": 45,
+    "lab": 24,
+    "seminar": 20
+  }
+}

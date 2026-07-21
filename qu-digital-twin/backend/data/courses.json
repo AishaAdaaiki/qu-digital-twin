@@ -1,0 +1,934 @@
+{
+  "_meta": {
+    "program": "Computer Science Bachelor of Science (Qatar University, catalog year 2024)",
+    "schema_version": 1,
+    "source": "Converted from student-provided QU CS BSc catalog export.",
+    "total_credit_hours_declared": 120,
+    "notes": "One-directional corequisites are merged into 'prerequisites' (simplified to 'must be done before enrolling'). TRUE mutual corequisite pairs (lecture/lab pairs where each lists the other as a corequisite) are kept separate under 'symmetric_corequisites' and scheduled as a bundle by planner.py/simulation.py, since merging them into prerequisites would create an unsatisfiable cycle. Original prerequisite/corequisite split is preserved per-course under 'source_prerequisites'/'source_corequisites'. 'description', 'requires_room_type', and 'equipment_needed' were inferred (not sourced from the official catalog) to support the resource-planning and new-elective-feasibility engines - review and correct any that are wrong."
+  },
+  "_elective_pool_reference": [
+    {
+      "code": "CMPS 312",
+      "title": "Mobile Application Development",
+      "credits": 3
+    },
+    {
+      "code": "CMPS 356",
+      "title": "Web Applications Design and Development",
+      "credits": 3
+    },
+    {
+      "code": "CMPS 360",
+      "title": "Data Science Fundamentals",
+      "credits": 3
+    },
+    {
+      "code": "CMPS 373",
+      "title": "Computer Graphics",
+      "credits": 3
+    },
+    {
+      "code": "CMPS 381",
+      "title": "Applied Cryptography",
+      "credits": 3
+    },
+    {
+      "code": "CMPS 393",
+      "title": "Modeling and Simulation",
+      "credits": 3
+    },
+    {
+      "code": "CMPS 399",
+      "title": "Practical Training",
+      "credits": 3
+    },
+    {
+      "code": "CMPS 403",
+      "title": "Artificial Intelligence",
+      "credits": 3
+    },
+    {
+      "code": "CMPS 433",
+      "title": "Multimedia Systems",
+      "credits": 3
+    },
+    {
+      "code": "CMPS 434",
+      "title": "Game Design and Development",
+      "credits": 3
+    },
+    {
+      "code": "CMPS 451",
+      "title": "Database Management Systems",
+      "credits": 3
+    },
+    {
+      "code": "CMPS 453",
+      "title": "Data Mining",
+      "credits": 3
+    },
+    {
+      "code": "CMPS 460",
+      "title": "Machine Learning",
+      "credits": 3
+    },
+    {
+      "code": "CMPS 465",
+      "title": "Parallel Computing",
+      "credits": 3
+    },
+    {
+      "code": "CMPS 466",
+      "title": "Information Retrieval",
+      "credits": 3
+    },
+    {
+      "code": "CMPE 480",
+      "title": "Computer Vision",
+      "credits": 3
+    },
+    {
+      "code": "CMPE 488",
+      "title": "Wireless Networks and Applications",
+      "credits": 3
+    },
+    {
+      "code": "CMPS 497",
+      "title": "Special Topics in Computing",
+      "credits": 3
+    }
+  ],
+  "_graduation_requirements_reference": {
+    "minimum_credit_hours": 120,
+    "senior_project_eligibility": {
+      "minimum_ch_completed": 84,
+      "required_courses": [
+        "CMPS310"
+      ],
+      "one_of": [
+        "CMPS350",
+        "CMPS405"
+      ]
+    },
+    "credit_hour_breakdown": {
+      "core_curriculum": 33,
+      "college_requirements": 21,
+      "major_core": 49,
+      "major_electives": 12,
+      "major_supporting": 5
+    }
+  },
+  "CMPS151": {
+    "name": "Programming Concepts",
+    "credits": 3,
+    "prerequisites": [],
+    "offered": [
+      "fall"
+    ],
+    "seat_capacity": null,
+    "category": "major_core",
+    "year": 1,
+    "source_prerequisites": [],
+    "source_corequisites": [],
+    "description": "Introduces fundamental programming concepts: variables, control flow, functions, and basic problem-solving using a high-level language.",
+    "requires_room_type": "lab",
+    "equipment_needed": [
+      "desktop_workstations"
+    ]
+  },
+  "CMPS251": {
+    "name": "Object-Oriented Programming",
+    "credits": 4,
+    "prerequisites": [
+      "CMPS151"
+    ],
+    "offered": [
+      "spring"
+    ],
+    "seat_capacity": null,
+    "category": "major_core",
+    "year": 1,
+    "source_prerequisites": [
+      "CMPS151"
+    ],
+    "source_corequisites": [],
+    "description": "Object-oriented programming principles: classes, inheritance, polymorphism, encapsulation, and design patterns, building on introductory programming.",
+    "requires_room_type": "lab",
+    "equipment_needed": [
+      "desktop_workstations"
+    ]
+  },
+  "CMPS200": {
+    "name": "Computer Ethics",
+    "credits": 1,
+    "prerequisites": [],
+    "offered": [
+      "fall"
+    ],
+    "seat_capacity": null,
+    "category": "major_core",
+    "year": 2,
+    "source_prerequisites": [],
+    "source_corequisites": [],
+    "description": "Ethical, legal, and professional issues in computing: privacy, intellectual property, professional codes of conduct, and social impact of technology.",
+    "requires_room_type": "lecture",
+    "equipment_needed": []
+  },
+  "CMPS205": {
+    "name": "Discrete Structures for Computing",
+    "credits": 3,
+    "prerequisites": [],
+    "offered": [
+      "fall"
+    ],
+    "seat_capacity": null,
+    "category": "major_core",
+    "year": 2,
+    "source_prerequisites": [],
+    "source_corequisites": [],
+    "description": "Mathematical foundations for computing: logic, set theory, combinatorics, graph theory, and proof techniques used throughout the CS curriculum.",
+    "requires_room_type": "lecture",
+    "equipment_needed": []
+  },
+  "CMPS303": {
+    "name": "Data Structures",
+    "credits": 4,
+    "prerequisites": [
+      "CMPS251"
+    ],
+    "offered": [
+      "fall"
+    ],
+    "seat_capacity": 35,
+    "category": "major_core",
+    "year": 2,
+    "source_prerequisites": [
+      "CMPS251"
+    ],
+    "source_corequisites": [],
+    "description": "Core data structures (lists, stacks, queues, trees, graphs, hash tables) and their implementation, analysis, and application to real problems.",
+    "requires_room_type": "lab",
+    "equipment_needed": [
+      "desktop_workstations"
+    ]
+  },
+  "CMPS323": {
+    "name": "Design and Analysis of Algorithms",
+    "credits": 3,
+    "prerequisites": [
+      "CMPS303",
+      "CMPS205"
+    ],
+    "offered": [
+      "spring"
+    ],
+    "seat_capacity": 35,
+    "category": "major_core",
+    "year": 2,
+    "source_prerequisites": [
+      "CMPS303",
+      "CMPS205"
+    ],
+    "source_corequisites": [],
+    "description": "Design and analysis of algorithms: asymptotic complexity, divide-and-conquer, greedy methods, dynamic programming, and NP-completeness.",
+    "requires_room_type": "lecture",
+    "equipment_needed": []
+  },
+  "CMPS351": {
+    "name": "Fundamentals of Database Systems",
+    "credits": 4,
+    "prerequisites": [
+      "CMPS251"
+    ],
+    "offered": [
+      "spring"
+    ],
+    "seat_capacity": 30,
+    "category": "major_core",
+    "year": 2,
+    "source_prerequisites": [
+      "CMPS251"
+    ],
+    "source_corequisites": [],
+    "description": "Relational database design, SQL, normalization, transactions, and an introduction to NoSQL and modern data storage systems.",
+    "requires_room_type": "lab",
+    "equipment_needed": [
+      "desktop_workstations"
+    ]
+  },
+  "CMPE263": {
+    "name": "Computer Architecture and Organization I",
+    "credits": 3,
+    "prerequisites": [
+      "CMPS205",
+      "CMPS151"
+    ],
+    "offered": [
+      "spring"
+    ],
+    "seat_capacity": 30,
+    "category": "major_core",
+    "year": 2,
+    "source_prerequisites": [
+      "CMPS205",
+      "CMPS151"
+    ],
+    "source_corequisites": [],
+    "description": "Digital logic, CPU architecture, memory hierarchy, instruction sets, and the hardware/software interface.",
+    "requires_room_type": "lab",
+    "equipment_needed": [
+      "digital_logic_kits"
+    ]
+  },
+  "CMPS310": {
+    "name": "Software Engineering",
+    "credits": 4,
+    "prerequisites": [
+      "CMPS251"
+    ],
+    "offered": [
+      "fall"
+    ],
+    "seat_capacity": null,
+    "category": "major_core",
+    "year": 3,
+    "source_prerequisites": [
+      "CMPS251"
+    ],
+    "source_corequisites": [],
+    "description": "Software development lifecycle, requirements engineering, design patterns, testing, and team-based project methodology.",
+    "requires_room_type": "lecture",
+    "equipment_needed": []
+  },
+  "CMPE355": {
+    "name": "Data Communication and Computer Networks I",
+    "credits": 4,
+    "prerequisites": [
+      "CMPE263",
+      "GENG200"
+    ],
+    "offered": [
+      "fall"
+    ],
+    "seat_capacity": 25,
+    "category": "major_core",
+    "year": 3,
+    "source_prerequisites": [
+      "CMPE263"
+    ],
+    "source_corequisites": [
+      "GENG200"
+    ],
+    "description": "Network architectures, protocols (TCP/IP), routing, and an introduction to network security, with hands-on configuration labs.",
+    "requires_room_type": "lab",
+    "equipment_needed": [
+      "network_lab_equipment"
+    ]
+  },
+  "CMPS380": {
+    "name": "Cybersecurity Fundamentals",
+    "credits": 3,
+    "prerequisites": [
+      "CMPS303"
+    ],
+    "offered": [
+      "fall"
+    ],
+    "seat_capacity": null,
+    "category": "major_core",
+    "year": 3,
+    "source_prerequisites": [
+      "CMPS303"
+    ],
+    "source_corequisites": [],
+    "description": "Foundations of cybersecurity: threat modeling, cryptographic basics, secure coding practices, and common vulnerability classes.",
+    "requires_room_type": "lab",
+    "equipment_needed": [
+      "desktop_workstations"
+    ]
+  },
+  "CMPS350": {
+    "name": "Web Development Fundamentals",
+    "credits": 3,
+    "prerequisites": [
+      "CMPS251"
+    ],
+    "offered": [
+      "spring"
+    ],
+    "seat_capacity": null,
+    "category": "major_core",
+    "year": 3,
+    "source_prerequisites": [
+      "CMPS251"
+    ],
+    "source_corequisites": [],
+    "description": "Client-server web architecture, HTML/CSS/JavaScript fundamentals, and building dynamic web applications.",
+    "requires_room_type": "lab",
+    "equipment_needed": [
+      "desktop_workstations"
+    ]
+  },
+  "CMPS405": {
+    "name": "Operating Systems",
+    "credits": 4,
+    "prerequisites": [
+      "CMPS303",
+      "CMPE263"
+    ],
+    "offered": [
+      "spring"
+    ],
+    "seat_capacity": 30,
+    "category": "major_core",
+    "year": 3,
+    "source_prerequisites": [
+      "CMPS303",
+      "CMPE263"
+    ],
+    "source_corequisites": [],
+    "description": "Operating system concepts: processes, threads, scheduling, memory management, file systems, and concurrency.",
+    "requires_room_type": "lab",
+    "equipment_needed": [
+      "desktop_workstations"
+    ]
+  },
+  "CMPS493": {
+    "name": "Senior Project I",
+    "credits": 3,
+    "prerequisites": [
+      "CMPS310"
+    ],
+    "offered": [
+      "fall"
+    ],
+    "seat_capacity": 20,
+    "category": "major_supporting",
+    "year": 4,
+    "source_prerequisites": [
+      "CMPS310"
+    ],
+    "source_corequisites": [],
+    "notes": "Requires minimum 84 CH completed AND CMPS 310 AND (CMPS 350 OR CMPS 405). Alternative: GENG 498.",
+    "one_of_prerequisites": [
+      "CMPS350",
+      "CMPS405"
+    ],
+    "min_credits_required": 84,
+    "description": "First half of the capstone sequence: team-based project proposal, requirements analysis, and system design under faculty supervision.",
+    "requires_room_type": "seminar",
+    "equipment_needed": []
+  },
+  "CMPS499": {
+    "name": "Senior Project II",
+    "credits": 3,
+    "prerequisites": [
+      "CMPS493"
+    ],
+    "offered": [
+      "spring"
+    ],
+    "seat_capacity": 20,
+    "category": "major_supporting",
+    "year": 4,
+    "source_prerequisites": [
+      "CMPS493"
+    ],
+    "source_corequisites": [],
+    "notes": "Alternative: GENG 499.",
+    "description": "Second half of the capstone sequence: implementation, testing, and presentation of the senior project developed in CMPS493.",
+    "requires_room_type": "seminar",
+    "equipment_needed": []
+  },
+  "CMPS307": {
+    "name": "Introduction to Project Management and Entrepreneurship",
+    "credits": 2,
+    "prerequisites": [],
+    "offered": [
+      "fall"
+    ],
+    "seat_capacity": null,
+    "category": "major_core",
+    "year": 4,
+    "source_prerequisites": [],
+    "source_corequisites": [],
+    "description": "Project management fundamentals and entrepreneurship basics for technology ventures, including planning, budgeting, and pitching.",
+    "requires_room_type": "lecture",
+    "equipment_needed": []
+  },
+  "MATH101": {
+    "name": "Calculus I",
+    "credits": 3,
+    "prerequisites": [],
+    "offered": [
+      "fall"
+    ],
+    "seat_capacity": null,
+    "category": "college",
+    "year": 1,
+    "source_prerequisites": [],
+    "source_corequisites": [],
+    "description": "Differential and integral calculus of a single variable, limits, derivatives, and their applications.",
+    "requires_room_type": "lecture",
+    "equipment_needed": []
+  },
+  "MATH102": {
+    "name": "Calculus II",
+    "credits": 3,
+    "prerequisites": [
+      "MATH101"
+    ],
+    "offered": [
+      "spring"
+    ],
+    "seat_capacity": null,
+    "category": "college",
+    "year": 1,
+    "source_prerequisites": [
+      "MATH101"
+    ],
+    "source_corequisites": [],
+    "description": "Continuation of Calculus I: integration techniques, sequences and series, and an introduction to multivariable concepts.",
+    "requires_room_type": "lecture",
+    "equipment_needed": []
+  },
+  "MATH231": {
+    "name": "Linear Algebra",
+    "credits": 3,
+    "prerequisites": [
+      "MATH101"
+    ],
+    "offered": [
+      "spring"
+    ],
+    "seat_capacity": null,
+    "category": "college",
+    "year": 1,
+    "source_prerequisites": [
+      "MATH101"
+    ],
+    "source_corequisites": [],
+    "description": "Vector spaces, matrices, linear transformations, eigenvalues/eigenvectors, and applications relevant to computing.",
+    "requires_room_type": "lecture",
+    "equipment_needed": []
+  },
+  "GENG200": {
+    "name": "Probability and Statistics for Engineers",
+    "credits": 3,
+    "prerequisites": [
+      "MATH102"
+    ],
+    "offered": [
+      "spring"
+    ],
+    "seat_capacity": null,
+    "category": "college",
+    "year": 2,
+    "source_prerequisites": [],
+    "source_corequisites": [
+      "MATH102"
+    ],
+    "description": "Probability theory and statistical methods for engineers: distributions, hypothesis testing, and regression.",
+    "requires_room_type": "lecture",
+    "equipment_needed": []
+  },
+  "GENG300": {
+    "name": "Numerical Methods",
+    "credits": 3,
+    "prerequisites": [
+      "MATH102",
+      "MATH231",
+      "CMPS151"
+    ],
+    "offered": [
+      "spring"
+    ],
+    "seat_capacity": null,
+    "category": "college",
+    "year": 3,
+    "source_prerequisites": [
+      "MATH102",
+      "MATH231",
+      "CMPS151"
+    ],
+    "source_corequisites": [],
+    "description": "Numerical techniques for solving engineering problems: root-finding, interpolation, numerical integration, and differential equations.",
+    "requires_room_type": "lab",
+    "equipment_needed": [
+      "desktop_workstations"
+    ]
+  },
+  "PHYS191": {
+    "name": "General Physics for Engineering I",
+    "credits": 3,
+    "prerequisites": [
+      "MATH101"
+    ],
+    "offered": [
+      "spring"
+    ],
+    "seat_capacity": null,
+    "category": "college",
+    "year": 1,
+    "source_prerequisites": [],
+    "source_corequisites": [
+      "PHYS192",
+      "MATH101"
+    ],
+    "symmetric_corequisites": [
+      "PHYS192"
+    ],
+    "description": "Mechanics, motion, forces, and energy for engineering students, with an accompanying lab component.",
+    "requires_room_type": "lecture",
+    "equipment_needed": []
+  },
+  "PHYS192": {
+    "name": "Experimental General Physics for Engineering I",
+    "credits": 1,
+    "prerequisites": [],
+    "offered": [
+      "spring"
+    ],
+    "seat_capacity": null,
+    "category": "college",
+    "year": 1,
+    "source_prerequisites": [],
+    "source_corequisites": [
+      "PHYS191"
+    ],
+    "symmetric_corequisites": [
+      "PHYS191"
+    ],
+    "description": "Hands-on laboratory experiments accompanying General Physics I: mechanics measurements and data analysis.",
+    "requires_room_type": "lab",
+    "equipment_needed": [
+      "physics_lab_equipment"
+    ]
+  },
+  "PHYS193": {
+    "name": "General Physics for Engineering II",
+    "credits": 3,
+    "prerequisites": [
+      "PHYS191",
+      "PHYS192"
+    ],
+    "offered": [
+      "fall"
+    ],
+    "seat_capacity": null,
+    "category": "college",
+    "year": 2,
+    "source_prerequisites": [
+      "PHYS191",
+      "PHYS192"
+    ],
+    "source_corequisites": [
+      "PHYS194"
+    ],
+    "symmetric_corequisites": [
+      "PHYS194"
+    ],
+    "description": "Electricity, magnetism, and waves for engineering students, continuing from General Physics I.",
+    "requires_room_type": "lecture",
+    "equipment_needed": []
+  },
+  "PHYS194": {
+    "name": "Experimental General Physics for Engineering II",
+    "credits": 1,
+    "prerequisites": [
+      "PHYS192"
+    ],
+    "offered": [
+      "fall"
+    ],
+    "seat_capacity": null,
+    "category": "college",
+    "year": 2,
+    "source_prerequisites": [
+      "PHYS192"
+    ],
+    "source_corequisites": [
+      "PHYS193"
+    ],
+    "symmetric_corequisites": [
+      "PHYS193"
+    ],
+    "description": "Hands-on laboratory experiments accompanying General Physics II: circuits, fields, and wave phenomena.",
+    "requires_room_type": "lab",
+    "equipment_needed": [
+      "physics_lab_equipment"
+    ]
+  },
+  "CHEM101": {
+    "name": "General Chemistry I",
+    "credits": 3,
+    "prerequisites": [],
+    "offered": [
+      "fall"
+    ],
+    "seat_capacity": null,
+    "category": "college",
+    "year": 1,
+    "source_prerequisites": [],
+    "source_corequisites": [],
+    "description": "General chemistry principles: atomic structure, bonding, stoichiometry, and reaction types relevant to engineering.",
+    "requires_room_type": "lecture",
+    "equipment_needed": []
+  },
+  "CHEM103": {
+    "name": "Experimental General Chemistry I",
+    "credits": 1,
+    "prerequisites": [
+      "CHEM101"
+    ],
+    "offered": [
+      "fall"
+    ],
+    "seat_capacity": null,
+    "category": "college",
+    "year": 1,
+    "source_prerequisites": [],
+    "source_corequisites": [
+      "CHEM101"
+    ],
+    "description": "Laboratory experiments accompanying General Chemistry I: safety, measurement, and basic chemical reactions.",
+    "requires_room_type": "lab",
+    "equipment_needed": [
+      "chemistry_lab_equipment"
+    ]
+  },
+  "ENGL202": {
+    "name": "English Language I (Post Foundation)",
+    "credits": 3,
+    "prerequisites": [],
+    "offered": [
+      "fall"
+    ],
+    "seat_capacity": null,
+    "category": "core_curriculum",
+    "year": 1,
+    "source_prerequisites": [],
+    "source_corequisites": [],
+    "description": "Academic English composition and communication skills for university-level coursework.",
+    "requires_room_type": "lecture",
+    "equipment_needed": []
+  },
+  "ENGL203": {
+    "name": "English Language II (Post Foundation)",
+    "credits": 3,
+    "prerequisites": [
+      "ENGL202"
+    ],
+    "offered": [
+      "spring"
+    ],
+    "seat_capacity": null,
+    "category": "core_curriculum",
+    "year": 1,
+    "source_prerequisites": [
+      "ENGL202"
+    ],
+    "source_corequisites": [],
+    "description": "Continuation of English Language I with emphasis on research writing, presentations, and critical reading.",
+    "requires_room_type": "lecture",
+    "equipment_needed": []
+  },
+  "ARAB100": {
+    "name": "Arabic Language I",
+    "credits": 3,
+    "prerequisites": [],
+    "offered": [
+      "fall"
+    ],
+    "seat_capacity": null,
+    "category": "core_curriculum",
+    "year": 2,
+    "source_prerequisites": [],
+    "source_corequisites": [],
+    "notes": "Offered in both Arabic and English",
+    "description": "Arabic language skills for academic and professional contexts, offered in both Arabic and English.",
+    "requires_room_type": "lecture",
+    "equipment_needed": []
+  },
+  "HIST121": {
+    "name": "History of Qatar",
+    "credits": 3,
+    "prerequisites": [],
+    "offered": [
+      "fall"
+    ],
+    "seat_capacity": null,
+    "category": "core_curriculum",
+    "year": 1,
+    "source_prerequisites": [],
+    "source_corequisites": [],
+    "notes": "Offered in both Arabic and English",
+    "description": "Political, social, and economic history of Qatar from its founding to the present day.",
+    "requires_room_type": "lecture",
+    "equipment_needed": []
+  },
+  "DAWA111": {
+    "name": "Islamic Culture",
+    "credits": 3,
+    "prerequisites": [],
+    "offered": [
+      "spring"
+    ],
+    "seat_capacity": null,
+    "category": "core_curriculum",
+    "year": 3,
+    "source_prerequisites": [],
+    "source_corequisites": [],
+    "description": "Introduction to Islamic culture, values, and their relevance to contemporary society.",
+    "requires_room_type": "lecture",
+    "equipment_needed": []
+  },
+  "MAGT101": {
+    "name": "Principles of Management",
+    "credits": 3,
+    "prerequisites": [],
+    "offered": [
+      "spring"
+    ],
+    "seat_capacity": null,
+    "category": "core_curriculum",
+    "year": 4,
+    "source_prerequisites": [],
+    "source_corequisites": [],
+    "description": "Foundational management principles: planning, organizing, leading, and controlling in organizational contexts.",
+    "requires_room_type": "lecture",
+    "equipment_needed": []
+  },
+  "CORE_KS": {
+    "name": "Core Knowledge and Skills Package",
+    "credits": 3,
+    "prerequisites": [],
+    "offered": [
+      "spring"
+    ],
+    "seat_capacity": null,
+    "category": "core_curriculum",
+    "year": 2,
+    "source_prerequisites": [],
+    "source_corequisites": [],
+    "description": "University core curriculum package covering general knowledge and transferable skills requirements.",
+    "requires_room_type": "lecture",
+    "equipment_needed": []
+  },
+  "NAT_SCI": {
+    "name": "Natural Science / Mathematics Package",
+    "credits": 3,
+    "prerequisites": [],
+    "offered": [
+      "fall"
+    ],
+    "seat_capacity": null,
+    "category": "core_curriculum",
+    "year": 3,
+    "source_prerequisites": [],
+    "source_corequisites": [],
+    "description": "University core curriculum package satisfying the natural science / mathematics requirement.",
+    "requires_room_type": "lecture",
+    "equipment_needed": []
+  },
+  "HUM_FA": {
+    "name": "Humanities / Fine Arts Package",
+    "credits": 3,
+    "prerequisites": [],
+    "offered": [
+      "fall"
+    ],
+    "seat_capacity": null,
+    "category": "core_curriculum",
+    "year": 4,
+    "source_prerequisites": [],
+    "source_corequisites": [],
+    "description": "University core curriculum package covering humanities and fine arts requirements.",
+    "requires_room_type": "lecture",
+    "equipment_needed": []
+  },
+  "SOC_BEH": {
+    "name": "Social and Behavioral Sciences Package",
+    "credits": 3,
+    "prerequisites": [],
+    "offered": [
+      "spring"
+    ],
+    "seat_capacity": null,
+    "category": "core_curriculum",
+    "year": 4,
+    "source_prerequisites": [],
+    "source_corequisites": [],
+    "description": "University core curriculum package covering social and behavioral science requirements.",
+    "requires_room_type": "lecture",
+    "equipment_needed": []
+  },
+  "ELEC1": {
+    "name": "Major Elective I",
+    "credits": 3,
+    "prerequisites": [],
+    "offered": [
+      "fall"
+    ],
+    "seat_capacity": null,
+    "category": "major_elective",
+    "year": 3,
+    "source_prerequisites": [],
+    "source_corequisites": [],
+    "notes": "Chosen from major elective pool",
+    "description": "Major elective slot I, filled from the approved CS elective pool (see _elective_pool_reference).",
+    "requires_room_type": "lecture",
+    "equipment_needed": []
+  },
+  "ELEC2": {
+    "name": "Major Elective II",
+    "credits": 3,
+    "prerequisites": [],
+    "offered": [
+      "spring"
+    ],
+    "seat_capacity": null,
+    "category": "major_elective",
+    "year": 3,
+    "source_prerequisites": [],
+    "source_corequisites": [],
+    "notes": "Chosen from major elective pool",
+    "description": "Major elective slot II, filled from the approved CS elective pool (see _elective_pool_reference).",
+    "requires_room_type": "lecture",
+    "equipment_needed": []
+  },
+  "ELEC3": {
+    "name": "Major Elective III",
+    "credits": 3,
+    "prerequisites": [],
+    "offered": [
+      "fall"
+    ],
+    "seat_capacity": null,
+    "category": "major_elective",
+    "year": 4,
+    "source_prerequisites": [],
+    "source_corequisites": [],
+    "notes": "Chosen from major elective pool",
+    "description": "Major elective slot III, filled from the approved CS elective pool (see _elective_pool_reference).",
+    "requires_room_type": "lecture",
+    "equipment_needed": []
+  },
+  "ELEC4": {
+    "name": "Major Elective IV",
+    "credits": 3,
+    "prerequisites": [],
+    "offered": [
+      "spring"
+    ],
+    "seat_capacity": null,
+    "category": "major_elective",
+    "year": 4,
+    "source_prerequisites": [],
+    "source_corequisites": [],
+    "notes": "Chosen from major elective pool",
+    "description": "Major elective slot IV, filled from the approved CS elective pool (see _elective_pool_reference).",
+    "requires_room_type": "lecture",
+    "equipment_needed": []
+  }
+}
