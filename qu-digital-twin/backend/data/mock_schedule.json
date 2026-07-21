@@ -1,0 +1,208 @@
+{
+  "_meta": "QU section meeting times are not published in the public catalog, so this is a student-authored mock schedule for the Schedule Conflict Detector (T2.5), generated deterministically per course code so time_overlap tests are reproducible.",
+  "CHEM101": {
+    "day": "Sun-Tue-Thu",
+    "start": "08:00",
+    "end": "08:50"
+  },
+  "CHEM103": {
+    "day": "Mon-Wed",
+    "start": "08:00",
+    "end": "09:15"
+  },
+  "CMPS151": {
+    "day": "Sun-Tue-Thu",
+    "start": "09:00",
+    "end": "09:50"
+  },
+  "ENGL202": {
+    "day": "Mon-Wed",
+    "start": "09:00",
+    "end": "10:15"
+  },
+  "HIST121": {
+    "day": "Sun-Tue-Thu",
+    "start": "10:00",
+    "end": "10:50"
+  },
+  "MATH101": {
+    "day": "Mon-Wed",
+    "start": "10:00",
+    "end": "11:15"
+  },
+  "CMPS251": {
+    "day": "Sun-Tue-Thu",
+    "start": "08:00",
+    "end": "08:50"
+  },
+  "ENGL203": {
+    "day": "Mon-Wed",
+    "start": "08:00",
+    "end": "09:15"
+  },
+  "MATH102": {
+    "day": "Sun-Tue-Thu",
+    "start": "09:00",
+    "end": "09:50"
+  },
+  "MATH231": {
+    "day": "Mon-Wed",
+    "start": "09:00",
+    "end": "10:15"
+  },
+  "PHYS191": {
+    "day": "Sun-Tue-Thu",
+    "start": "10:00",
+    "end": "10:50"
+  },
+  "PHYS192": {
+    "day": "Mon-Wed",
+    "start": "10:00",
+    "end": "11:15"
+  },
+  "ARAB100": {
+    "day": "Sun-Tue-Thu",
+    "start": "08:00",
+    "end": "08:50"
+  },
+  "CMPS200": {
+    "day": "Mon-Wed",
+    "start": "09:30",
+    "end": "10:45"
+  },
+  "CMPS205": {
+    "day": "Mon-Wed",
+    "start": "09:30",
+    "end": "10:45"
+  },
+  "CMPS303": {
+    "day": "Mon-Wed",
+    "start": "09:00",
+    "end": "10:15"
+  },
+  "PHYS193": {
+    "day": "Sun-Tue-Thu",
+    "start": "10:00",
+    "end": "10:50"
+  },
+  "PHYS194": {
+    "day": "Mon-Wed",
+    "start": "10:00",
+    "end": "11:15"
+  },
+  "CMPE263": {
+    "day": "Sun-Tue-Thu",
+    "start": "08:00",
+    "end": "08:50"
+  },
+  "CMPS323": {
+    "day": "Mon-Wed",
+    "start": "08:00",
+    "end": "09:15"
+  },
+  "CMPS351": {
+    "day": "Sun-Tue-Thu",
+    "start": "09:00",
+    "end": "09:50"
+  },
+  "CORE_KS": {
+    "day": "Mon-Wed",
+    "start": "09:00",
+    "end": "10:15"
+  },
+  "GENG200": {
+    "day": "Sun-Tue-Thu",
+    "start": "10:00",
+    "end": "10:50"
+  },
+  "CMPE355": {
+    "day": "Sun-Tue-Thu",
+    "start": "08:00",
+    "end": "08:50"
+  },
+  "CMPS310": {
+    "day": "Mon-Wed",
+    "start": "08:00",
+    "end": "09:15"
+  },
+  "CMPS380": {
+    "day": "Sun-Tue-Thu",
+    "start": "09:00",
+    "end": "09:50"
+  },
+  "ELEC1": {
+    "day": "Mon-Wed",
+    "start": "09:00",
+    "end": "10:15"
+  },
+  "NAT_SCI": {
+    "day": "Sun-Tue-Thu",
+    "start": "10:00",
+    "end": "10:50"
+  },
+  "CMPS350": {
+    "day": "Sun-Tue-Thu",
+    "start": "08:00",
+    "end": "08:50"
+  },
+  "CMPS405": {
+    "day": "Mon-Wed",
+    "start": "08:00",
+    "end": "09:15"
+  },
+  "DAWA111": {
+    "day": "Sun-Tue-Thu",
+    "start": "09:00",
+    "end": "09:50"
+  },
+  "ELEC2": {
+    "day": "Mon-Wed",
+    "start": "09:00",
+    "end": "10:15"
+  },
+  "GENG300": {
+    "day": "Sun-Tue-Thu",
+    "start": "10:00",
+    "end": "10:50"
+  },
+  "CMPS307": {
+    "day": "Sun-Tue-Thu",
+    "start": "08:00",
+    "end": "08:50"
+  },
+  "CMPS493": {
+    "day": "Mon-Wed",
+    "start": "08:00",
+    "end": "09:15"
+  },
+  "ELEC3": {
+    "day": "Sun-Tue-Thu",
+    "start": "09:00",
+    "end": "09:50"
+  },
+  "HUM_FA": {
+    "day": "Mon-Wed",
+    "start": "09:00",
+    "end": "10:15"
+  },
+  "CMPS499": {
+    "day": "Sun-Tue-Thu",
+    "start": "08:00",
+    "end": "08:50"
+  },
+  "ELEC4": {
+    "day": "Mon-Wed",
+    "start": "08:00",
+    "end": "09:15"
+  },
+  "MAGT101": {
+    "day": "Sun-Tue-Thu",
+    "start": "09:00",
+    "end": "09:50"
+  },
+  "SOC_BEH": {
+    "day": "Mon-Wed",
+    "start": "09:00",
+    "end": "10:15"
+  }
+}
